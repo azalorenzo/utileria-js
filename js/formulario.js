@@ -37,7 +37,7 @@ function validar() {
       let edad = calcularEdad(fechaNacimiento);
 
       Swal.fire({
-        title: "Edad calculada",
+        title: "Datos registrados",
         html: `
         Nombre: ${nombre}<br>
         Correo: ${correo}<br>
