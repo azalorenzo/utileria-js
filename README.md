@@ -261,4 +261,6 @@ Capturas que muestran las validaciones implementadas en la página de inicio de 
 
 En el siguiente video se muestra el funcionamiento de la librería, su integración y las validaciones realizadas.
 
+▶️ [**Ver video demostrativo en YouTube**](https://youtu.be/6RLyLVr05KI)
+
 [![Video demostrativo](https://img.youtube.com/vi/6RLyLVr05KI/maxresdefault.jpg)](https://youtu.be/6RLyLVr05KI)
