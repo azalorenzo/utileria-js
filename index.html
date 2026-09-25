@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Formulario</title>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1>Formulario de registro</h1>
+
+      <div class="campo">
+        <label for="inputNombre">Nombre:</label>
+        <input type="text" id="inputNombre" placeholder="Ingrese su nombre" />
+        <label id="advertenciaNombre" hidden></label>
+      </div>
+
+      <div class="campo">
+        <label for="inputCorreo">Correo electrónico:</label>
+        <input type="text" id="inputCorreo" placeholder="ejemplo@gmail.com" />
+        <label id="advertenciaCorreo" hidden></label>
+      </div>
+
+      <div class="campo">
+        <label for="inputTelefono">Número de teléfono:</label>
+        <input type="text" id="inputTelefono" placeholder="Ej: 9511234567" />
+        <label id="advertenciaTelefono" hidden></label>
+      </div>
+
+      <div class="campo">
+        <label for="inputNumero">Número de identificación:</label>
+        <input type="text" id="inputNumero" placeholder="Ingrese su número" />
+        <label id="advertenciaNumero" hidden></label>
+      </div>
+
+      <div class="campo">
+        <label for="inputFechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="inputFechaNacimiento" />
+        <label id="advertenciaFechaNacimiento" hidden></label>
+      </div>
+
+      <div class="campo">
+        <label for="inputPassword">Contraseña:</label>
+        <input type="password" id="inputPassword" placeholder="Ingrese una contraseña" />
+        <label id="advertenciaPassword" hidden></label>
+      </div>
+
+      <div class="campo">
+        <button type="button" id="botonValidar" onclick="validar()">Validar</button>
+      </div>
+      <a href="login.html">Ir al Login</a>
+    </div>
+
+    <script src="js/utileria.js"></script>
+    <script src="js/formulario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

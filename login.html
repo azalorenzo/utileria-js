@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>LOGIN</h1>
+      <div class="campo1">
+        <label id="label_correo"> Correo: </label>
+        <input type="text" id="inputCorreo" placeholder="ejemplo@gmail.com" />
+        <label id="alertaCorreo" hidden></label>
+      </div>
+      <div class="campo2">
+        <label>Contraseña:</label>
+        <input type="password" id="inputContraseña" placeholder="" />
+        <label id="alertaPassword" hidden></label>
+      </div>
+      <div class="campo3">
+        <button id="botonLogin" onclick="iniciarSesion()">Iniciar sesion</button>
+      </div>
+    </div>
+  </body>
+  <script src="js/login.js"></script>
+  <script src="js/utileria.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>
